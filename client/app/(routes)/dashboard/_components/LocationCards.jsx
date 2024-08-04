@@ -2,7 +2,7 @@ import React from "react";
 
 const LocationCards = () => {
   return (
-    <div className="w-full shadow-md max-h-[400px] md:max-h-[640px] flex flex-col m-2 p-2 rounded-lg">
+    <div className="w-full h-full max-h-[350px] md:max-h-[350px] flex flex-col m-2 p-2 rounded-lg bg-white shadow-[4px_8px_15px_#00000040]">
       <button className="w-[95%] m-2 p-3 bg-gray-200 text-gray-800 border-none rounded-md cursor-pointer transition-all hover:bg-gray-300 transform hover:scale-95">
         Sort by Alert Percentage
       </button>
