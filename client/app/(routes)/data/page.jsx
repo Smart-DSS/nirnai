@@ -10,7 +10,7 @@ const page = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/home")
+    fetch("http://35.244.45.118:5000/api/home")
       .then((response) => response.json())
       .then((data) => {
         setJsonData(data);
